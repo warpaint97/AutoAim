@@ -34,7 +34,7 @@ After downloading it move it inside the `model/` directory.
 
 ### Dependencies
 - (advised) **opencv-python** and **opencv-contrib-python GPU with CUDA**, see instructions [here](https://thinkinfi.com/install-opencv-gpu-with-cuda-for-windows-10/).
-- (not adviced) **opencv-python** for CPU only using `pip install opencv-python`
+- (not adviced) **opencv-python** CPU-only using `pip install opencv-python`
 - **pydirectinput** for windows input synthesis
 - **mss** for screen capture
 - **numpy**
