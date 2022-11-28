@@ -1,7 +1,6 @@
 import numpy as np
 import cv2 as cv
 from mss import mss
-from PIL import Image
 import pydirectinput as pdi
 
 class ScreenCapture:
