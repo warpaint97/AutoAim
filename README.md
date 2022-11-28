@@ -32,7 +32,7 @@ The `yolov3.weights` file is 236MB large and exceeds GitHub's maximum file size 
 Download the pre-trained YOLO weight file [here](https://pjreddie.com/media/files/yolov3.weights).
 After downloading it move it inside the `model/` directory.
 
-### Dependencies
+## Dependencies
 - (advised) **opencv-python** and **opencv-contrib-python GPU with CUDA**, see instructions [here](https://thinkinfi.com/install-opencv-gpu-with-cuda-for-windows-10/).
 - (not adviced) **opencv-python** CPU-only using `pip install opencv-python`
 - **pydirectinput** for windows input synthesis
