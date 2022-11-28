@@ -28,7 +28,7 @@ The red circle on the right marks the exact position of the mouse to click on si
         yolov3.weights (missing because file size > 100 MB)
  ```
 ### YOLOv3 DNN weights file
-The `yolov3.weights` file is 236MB large and exceeds GitHub's maximum file size of less than 100MB.
+The `yolov3.weights` file is 236MB large and exceeds GitHub's maximum file size of 100MB.
 Download the pre-trained YOLO weight file [here](https://pjreddie.com/media/files/yolov3.weights).
 After downloading it move it inside the `model/` directory.
 
