@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# ignore __pycache__
+__pycache__/
+
+# ignore .weights files
+*.weights
