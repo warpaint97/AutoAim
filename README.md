@@ -15,9 +15,12 @@ The red circle on the right marks the exact position of the mouse to click on si
 │   yolo.py
 │
 ├───images
-│       horse.jpg
-│       test.jpg
-│       test1.JPG
+│   │   horse.jpg
+│   │   test.jpg
+│   │   test1.JPG
+│   │
+│   └───demo
+│           demo.JPG
 │
 └───model
         coco.names
