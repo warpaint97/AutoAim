@@ -3,7 +3,7 @@
  
 ### Demo Image
 
- ![](images/demo/demo.jpg)
+ ![](images/demo/demo.JPG)
  
  
  ### Directory Tree
