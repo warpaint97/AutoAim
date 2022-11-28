@@ -2,7 +2,7 @@
  This is an auto aim bot written in python that utilizes a YOLO model from openCV to detect people on your PC's screen and takes control of your mouse to click on that person's upper body. To see how to build a YOLO model with OpenCV visit [YOLO - object detection](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html)
  
 ### Demo Image
- 
+ [demo](images/demo/demo.jpg)
  
  ### Directory Tree
  ```
