@@ -7,9 +7,11 @@ import keyboard
 import threading
 
 # config
+################################################
 min_confidence = 0.5
 use_gpu = True
 control_mouse = True
+################################################
 
 # threading function for key listener
 def keyListener():
@@ -35,11 +37,14 @@ if __name__ == '__main__':
         if target and control_mouse:
             print(f'Move cursor to {target}')
             pdi.moveTo(target[0], target[1])
-            #pdi.mouseDown()
+            pdi.mouseDown()
         else:
             pdi.mouseUp()
+
+        # clear memory
         del img
         del target
+        # calculate the frame rate
         fps = 1/(time.time()-t0)
         print(f'{fps:.2f} FPS')
         # exit program if escape has been pressed
