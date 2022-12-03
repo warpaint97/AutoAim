@@ -10,7 +10,8 @@ import threading
 ################################################
 min_confidence = 0.5
 use_gpu = True
-control_mouse = True
+move_mouse = True
+click_mouse = True
 ################################################
 
 # threading function for key listener
@@ -34,10 +35,12 @@ if __name__ == '__main__':
         if cv.waitKey(1) & 0xFF == ord('q'):
             break
         target = yolo.findPersonTarget(img, min_confidence, display_img=False)
-        if target and control_mouse:
-            print(f'Move cursor to {target}')
-            pdi.moveTo(target[0], target[1])
-            pdi.mouseDown()
+        if target:
+            if move_mouse:
+                print(f'Move cursor to {target}')
+                pdi.moveTo(target[0], target[1])
+            if click_mouse:
+                pdi.mouseDown()
         else:
             pdi.mouseUp()
 
